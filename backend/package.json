@@ -1,0 +1,28 @@
+{
+  "name": "map-tracker",
+  "version": "1.0.0",
+  "description": "A simple app requested as an interview task. It shows a map and pins moving around it. Pin coordinates are sent by server in realtime fashion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**/*.ts",
+    "start": "ts-node ./src/server.ts"
+  },
+  "author": "Jakub Wasak",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/express": "^4.16.1",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^10.12.24",
+    "@types/socket.io": "^2.1.2",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
